@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2025, 9:01:45 AM
+    Author     : legiang300304
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    padding: 20px;
+}
+
+.container {
+    margin: 50px auto; 
+    padding-top: 20px; 
+    width: 95%;
+    max-width: 900px;
+    background: #112240;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.header__nav {
+    width: 100%;
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    position: relative; /* Đảm bảo nó nằm ở trên đầu */
+}
+
+
+
+.header__nav a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+
+
+h1 {
+    color: #82FED9;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.message {
+    background-color: #233554;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: #64ffda;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #112240;
+    color: #CCD6F6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table-wrapper {
+    max-height: 400px; 
+    overflow-y: auto;
+    border-radius: 5px;
+}
+
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #82FED9;
+    color: #0A192F;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #3a506b;
+    transform: translateY(-2px);
+}
+

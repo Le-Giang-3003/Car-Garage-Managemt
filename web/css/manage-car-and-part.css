@@ -1,0 +1,210 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2025, 8:54:09 AM
+    Author     : legiang300304
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #112240;
+}
+.header__nav {
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    text-align: right;
+}
+
+.header__nav a {
+    color: #64FFDA;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #82FED9;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+    align-items: center; 
+}
+
+.search-form form {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.search-form input[type="text"], 
+.search-form input[type="number"] {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #233554;
+    border-radius: 4px;
+    background-color: #0A192F;
+    color: #CCD6F6;
+}
+
+.search-form button, .create-link {
+    padding: 10px 20px;
+    background-color: #64FFDA;
+    color: #0A192F;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search-form button:hover {
+    background-color: #233554;
+    color: #64FFDA;
+}
+
+.form-inline {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-inline input,
+.form-inline button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-inline input {
+    width: 200px;
+}
+
+.form-inline button {
+    background-color: #82FED9;
+    color: #0A192F;
+    border: none;
+    cursor: pointer;
+}
+
+.form-inline button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #112240;
+    color: #CCD6F6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: none;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+tr:hover {
+    background-color: #233554;
+    transition: background 0.3s ease;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-update {
+    background-color: #82FED9;
+    color: #0A192F;
+}
+
+.btn-update:hover {
+    background-color: #4CC9A3;
+}
+
+.btn-delete {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+a.btn {
+    text-align: center;
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+a.btn:hover {
+    opacity: 0.8;
+}
+
+.action-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.action-btn form {
+    display: inline;
+    margin: 0;
+}

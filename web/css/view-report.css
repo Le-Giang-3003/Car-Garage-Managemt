@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+body {
+    background-color: #0A192F;  
+    color: #CCD6F6;  
+    text-align: center;
+    padding: 20px;
+}
+
+/* HEADER - Navigation */
+.header__nav {
+    background-color: #0A192F;  
+    color: #64FFDA;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #233554;
+}
+
+.header__nav h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.header__nav a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.header__nav a:hover {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+/* CONTAINER */
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* DROPDOWN */
+.report-dropdown {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.report-dropdown label {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.report-dropdown select {
+    width: 250px;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #64FFDA;
+    background: #112240;
+    color: #64FFDA;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.report-dropdown select:hover {
+    background: #233554;
+}
+
+/* REPORT TABLE */
+.report-table {
+    width: 80%;
+    background: #112240;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    color: #CCD6F6;
+    text-align: center;
+}
+
+.report-table h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.report-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #0A192F;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.report-table th, .report-table td {
+    padding: 14px;
+    text-align: center;
+    border-bottom: 2px solid #233554;
+}
+
+.report-table th {
+    background: #233554;
+    color: #64FFDA;
+    font-size: 1.1rem;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #112240;
+}
+
+.report-table tr:hover {
+    background: #1D3557;
+    transition: background 0.3s ease-in-out;
+}
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    .header__nav {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .report-container {
+        width: 95%;
+    }
+
+    .report-table {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .report-dropdown select {
+        width: 100%;
+    }
+}

@@ -1,0 +1,155 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2025, 9:28:11 AM
+    Author     : legiang300304
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    margin: 0;
+    padding: 0;
+}
+.header__nav {
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    text-align: right;
+}
+
+.header__nav a {
+    color: #64FFDA;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #112240;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+/* Căn chỉnh input text */
+input[type="text"] {
+    width: calc(100% - 20px); /* Giảm chiều rộng để tránh sát mép */
+    padding: 12px;
+    margin-left: 10px; /* Đẩy nhẹ về bên phải */
+    border: 1px solid #233554;
+    border-radius: 6px;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    font-size: 1.1rem;
+}
+
+/* Đảm bảo label và input thẳng hàng */
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Style cho label */
+.input-label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #CCD6F6;
+    min-width: 80px; /* Đảm bảo label có độ rộng cố định */
+}F
+
+
+input[type="text"]::placeholder {
+    color: #8892B0;
+    font-size: 1rem; 
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.custom-radio {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    color: #CCD6F6;
+    cursor: pointer;
+}
+
+.custom-radio input[type="radio"] {
+    display: none;
+}
+
+.custom-radio .radio-btn {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #64FFDA;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-radio input[type="radio"]:checked + .radio-btn::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: #64FFDA;
+    border-radius: 50%;
+}
+
+.custom-radio:hover .radio-btn {
+    border-color: #8892B0;
+}
+
+
+button, input[type="submit"] {
+    padding: 14px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #64FFDA;
+    color: #0A192F;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.create-link {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.error {
+    color: #FF6B6B;
+    font-weight: bold;
+}
+
+.success {
+    color: #64FFDA;
+    font-weight: bold;
+}

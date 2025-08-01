@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2025, 5:14:51 PM
+    Author     : legiang300304
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    margin: 0;
+    padding: 0;
+}
+
+.header__nav {
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.header__nav a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #112240;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: #64FFDA;
+}
+
+.create-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    background-color: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.create-link:hover {
+    background-color: #233554;
+    color: #64FFDA;
+}
+
+.table-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #112240;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #233554;
+}
+
+th {
+    background-color: #64FFDA;
+    color: #0A192F;
+}
+
+tr:hover {
+    background-color: #233554;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-action {
+    padding: 8px 15px;
+    background-color: #64FFDA;
+    color: #0A192F;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-action:hover {
+    background-color: #233554;
+    color: #64FFDA;
+}
+
+.btn-delete {
+    padding: 8px 15px;
+    background-color: #FF4B4B;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-delete:hover {
+    background-color: #D32F2F;
+    color: white;
+}
+

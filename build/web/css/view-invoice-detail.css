@@ -1,0 +1,155 @@
+/* 
+    Created on : Mar 16, 2025, 10:23:12 AM
+    Author     : legiang300304
+*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.header__nav {
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.header__left {
+    display: flex;
+    gap: 20px; /* Khoảng cách giữa Home và Back to Invoices */
+}
+
+.header__nav h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.header__right {
+    margin-left: auto; /* Đẩy Log Out sang phải */
+}
+
+.header__nav a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #112240;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h3 {
+    color: #64FFDA;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #64FFDA;
+}
+
+select, input[type="text"], button {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border: 1px solid #64FFDA;
+    border-radius: 6px;
+    background-color: #233554;
+    color: #CCD6F6;
+    font-size: 1.1rem;
+}
+
+select {
+    cursor: pointer;
+}
+
+button {
+    background-color: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #52d3aa;
+    transform: scale(1.05);
+}
+
+.alert {
+    margin-top: 20px;
+    background-color: rgba(100, 255, 218, 0.2);
+    color: #CCD6F6;
+    border: 1px solid #64FFDA;
+    font-weight: bold;
+}
+
+.table-container {
+    overflow-x: hidden;
+    margin-top: 20px;
+    background-color: #112240;
+    padding: 15px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #CCD6F6;
+}
+
+.table th {
+    background-color: #233554;
+    color:  #64FFDA;
+    padding: 10px;
+    white-space: nowrap;
+}
+
+.table td {
+    background-color: #112240;
+    color: #ccd6f6;
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.text-danger {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 2rem;
+}

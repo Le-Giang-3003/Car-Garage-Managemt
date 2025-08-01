@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 16, 2025, 8:56:16 AM
+    Author     : legiang300304
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F; 
+    color: #CCD6F6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: #112240;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #82FED9;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+select,
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #233554;
+    border-radius: 5px;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    font-size: 16px;
+}
+
+select:focus,
+input[type="text"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #64ffda;
+    box-shadow: 0 0 5px #64ffda;
+}
+
+/* Nút Submit */
+input[type="submit"] {
+    background-color: #64ffda;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    padding: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #52e0c4;
+    transform: translateY(-2px);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #233554;
+    color: #CCD6F6;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+    background-color: #3a506b;
+    transform: translateY(-2px);
+}
+
+p {
+    font-size: 16px;
+    margin-top: 12px;
+    color: #64ffda;
+}
+
+
+

@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2025, 5:47:50 PM
+    Author     : legiang300304
+*/
+/* Thiết lập nền và font chữ chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0A192F;
+    color: #CCD6F6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Thanh điều hướng */
+.header__nav {
+    background-color: #0A192F;
+    color: #64FFDA;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+}
+
+.header__nav a {
+    color: #64FFDA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    color: #8892B0;
+}
+
+/* Container chính */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #112240;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+h1 {
+    color: #64FFDA;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #112240 !important;  /* ✅ Đảm bảo nền tối */
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+/* Tiêu đề bảng */
+th {
+    background-color: #64FFDA !important;
+    color: #0A192F !important;
+    padding: 15px;
+}
+
+/* Các dòng dữ liệu */
+td {
+    padding: 15px;
+    color: #CCD6F6 !important;
+    border-bottom: 1px solid #233554;
+}
+
+/* Khi hover vào hàng */
+tr:hover {
+    background-color: #233554 !important;
+}
+
+/* Đảm bảo Bootstrap không ghi đè màu */
+.table-bordered, .table-striped {
+    background-color: #112240 !important;
+}
+
+/* Xóa sọc trắng của Bootstrap */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #0A192F !important;
+}
+
